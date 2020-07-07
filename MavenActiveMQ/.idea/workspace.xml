@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="807415b5-c4f7-4dfc-9554-18a8aa92e773" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/Library/apache-maven-3.6.3/maven-repository" />
+        <option name="mavenHome" value="/Library/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e2zVJdu0ELN17xhyRZP5Y6wNOw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.activemq.project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestMQ.testProducer">
+    <configuration name="TestMQ.testConsumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenActiveMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.activemq.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.activemq.project" />
+      <option name="MAIN_CLASS_NAME" value="com.activemq.project.TestMQ" />
+      <option name="METHOD_NAME" value="testConsumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMQ.testProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MavenActiveMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.activemq.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.activemq.project" />
+      <option name="MAIN_CLASS_NAME" value="com.activemq.project.TestMQ" />
+      <option name="METHOD_NAME" value="testProducer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMQ.testProducer" />
+        <item itemvalue="JUnit.TestMQ.testConsumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="807415b5-c4f7-4dfc-9554-18a8aa92e773" name="Default Changelist" comment="" />
+      <created>1593534497588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593534497588</updated>
+      <workItem from="1593534501179" duration="14721000" />
+      <workItem from="1593920576205" duration="2710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593672397448">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1593672397448" />
+    <state x="533" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1593706639386">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="533" y="178" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1593706639386" />
+    <state x="319" y="126" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1593672396164">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="319" y="126" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.23.1440.877@0.23.1440.877" timestamp="1593672396164" />
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom" timestamp="1594049558386">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594049558386" />
+    <state width="1398" height="299" key="GridCell.Tab.0.center" timestamp="1594049558385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594049558385" />
+    <state width="1398" height="299" key="GridCell.Tab.0.left" timestamp="1594049558385">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594049558385" />
+    <state width="1398" height="299" key="GridCell.Tab.0.right" timestamp="1594049558386">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="299" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594049558386" />
+    <state width="1398" height="187" key="GridCell.Tab.1.bottom" timestamp="1593875893974">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="187" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593875893974" />
+    <state width="1398" height="187" key="GridCell.Tab.1.center" timestamp="1593875893973">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="187" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1593875893973" />
+    <state width="1398" height="187" key="GridCell.Tab.1.left" timestamp="1593875893973">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="187" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1593875893973" />
+    <state width="1398" height="187" key="GridCell.Tab.1.right" timestamp="1593875893973">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="187" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1593875893973" />
+    <state x="208" y="43" key="SettingsEditor" timestamp="1593875525516">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593875525516" />
+    <state x="114" y="23" key="new project wizard" timestamp="1593875882820">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="114" y="23" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1593875882820" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/activemq/project/ConsumerThread.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

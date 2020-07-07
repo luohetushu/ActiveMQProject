@@ -1,0 +1,13 @@
+# 配置访问的端口 默认：Tomcat started on port(s): 8080 (http) with context path ''
+server:
+  port: 8080
+#server.servlet.context-path="/cn"
+
+# Zookeeper
+zookeeper:
+  address: 127.0.0.1:2181
+  timeout: 30000
+
+# slf4j.Logger
+logging:
+  config: classpath:log/logback-spring.xml

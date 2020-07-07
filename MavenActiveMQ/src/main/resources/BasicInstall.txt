@@ -1,0 +1,68 @@
+消息中间件：ActiveMQ
+
+Mac 安装 ActiveMQ
+ActiveMQ官网下载地址：http://activemq.apache.org/download.html
+apache-activemq-5.15.13
+
+启动ActiveMQ：
+1、进入 ActiveMQ 安装目录的Bin 目录：cd /usr/local/apache-activemq-5.15.13/bin
+   命令：./activemq start   // 启动activeMQ 服务
+   命令：./activemq stop    // 关闭activeMQ 服务
+2、开启服务后，可以打开监控ActiveMQ的admin应用：
+   admin：http://127.0.0.1:8161/admin/
+   默认账号：admin     密码：admin
+
+
+
+中间件：
+非底层操作系统软件，非业务应用软件，不是直接给最终用户使用的，不能直接给客户带来价值的软件统称为中间件
+
+消息中间件?
+关注于数据的发送和接受，利用高效可靠的异步消息传递机制集成分布式系统
+
+JMS?
+Java消息服务(Java Message Service)即JMS,是一个Java平台中关于面向消息中间件的API,用于在两个应用程序之间，或分布式系统中发送消息，进行异步通信
+JMS支持两种消息发送和接收模型：
+1、P2P(Point to Point)模型，即采用点对点的方式发送消息
+   P2P模型是基于队列的，消息生产者发送消息到队列，消息消费者从队列中接收消息，队列的存在使得消息的异步传输称为可能，P2P模型在点对点的情况下进行消息传递时采用
+2、Pub/Sub(Publish/Subscribe，即发布-订阅)模型
+   向一个内容节点（称为 topic 主题）发布和订阅消息
+   消息发布将消息发布到某个主题，消息订阅者则从主题订阅消息，主题使得消息的订阅者与消息的发布者互相保持独立
+   发布-订阅模型在消息的一对多广播时采用
+
+
+JMS相关概念：
+提供者：实现JMS规范的消息中间件服务器
+客户端：发送或接收消息的应用程序
+生产者/发布者：创建并发送消息的客户端
+消费者/订阅者：接收并处理消息的客户端
+消息：应用程序之间传递的数据内容
+消息模式：在客户端之间传递消息的方式，JMS中定义了主题和队列两种模式。
+
+JMS 规范：
+ConnectionFactory：用于创建连接到消息中间件的连接工厂
+Connection：代表了应用程序和消息服务器之间的通信链路
+Destination：指消息发布和接收的地点，包括队列或主题
+Session：表示一个单线程的上下文，用于发送和接收消息，
+         会话，由Connection创建，实质上就是发送、接受消息的一个线程，因此生产者、消费者都是Session创建的
+MessageConsumer：由会话创建，用于接收发送到目标的消息
+MessageProducer：由会话创建，用于发送消息到目标
+Message：是在消费者和生产者之间传送的对象，消息头，一组消息属性，一个消息体
+
+JMS 术语：
+PTP：Point To Point，点对点通信消息模型
+Pub/Sub：Publish/Subscribe，发布订阅消息模型
+Queue：队列，目标类型之一，和PTP结合
+Topic：主题，目标类型之一，和Pub/Sub结合
+
+AMQP?
+AMQP(advanced message queuing protocol)是一个提供统一消息服务的应用层标准协议，基于此协议的客户端与消息中间件可传递消息，
+并不受客户端/中间件不同产品、不同开发语言等条件的限制
+
+
+
+
+
+
+
+
